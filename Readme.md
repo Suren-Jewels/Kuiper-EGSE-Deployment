@@ -1,0 +1,16 @@
+- cloud-infrastructure
+- aws
+- egse
+- powershell
+- python
+- automation
+- satellite-systems
+- deployment
+- systems-engineering
+- project-kuiper
+- linux
+- vpn
+- dhcp
+- dns
+- tcp-ip
+- cisco 
