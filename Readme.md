@@ -43,3 +43,9 @@ This project involved deploying 5 EGSE (Electrical Ground Support Equipment) sat
 ## 🎯 Outcome
 
 Accelerated satellite testing readiness and improved engineering efficiency across Kuiper’s infrastructure.
+
+---
+
+## 🔒 Confidentiality Notice
+
+Due to the sensitive nature of this project and contractual obligations, specific diagrams, scripts, and internal documentation cannot be publicly shared. This repository provides a high-level overview of the work delivered, technologies used, and outcomes achieved.
