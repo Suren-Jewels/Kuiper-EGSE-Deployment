@@ -24,12 +24,49 @@ This work reflects hands-on engineering in a **mission-critical aerospace enviro
 
 ## 🛠️ Technologies & Tools
 
-- **Operating Systems**: Linux (Ubuntu, RHEL), Windows Server
-- **Scripting & Automation**: Shell scripting, PowerShell, Python
-- **Networking**: TCP/IP, VLANs, routing
-- **Security**: SSH, MFA, RBAC
-- **Monitoring**: Logging & monitoring systems
-- **Hardware**: EGSE/ATE/KTE interfaces
+### **Platform Stack**
+
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Technologies</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>🖥️ Operating Systems</strong></td>
+<td>Linux (Ubuntu, RHEL)<br>Windows Server</td>
+<td>Hybrid infrastructure supporting EGSE components</td>
+</tr>
+<tr>
+<td><strong>⚙️ Automation</strong></td>
+<td>Shell scripting<br>PowerShell<br>Python</td>
+<td>Deployment automation and configuration management</td>
+</tr>
+<tr>
+<td><strong>🌐 Networking</strong></td>
+<td>TCP/IP<br>VLANs<br>Routing</td>
+<td>Network infrastructure for test systems</td>
+</tr>
+<tr>
+<td><strong>🔐 Security</strong></td>
+<td>SSH<br>MFA<br>RBAC</td>
+<td>Secure access controls and authentication</td>
+</tr>
+<tr>
+<td><strong>📊 Monitoring</strong></td>
+<td>Logging systems<br>Monitoring tools</td>
+<td>System health and operational visibility</td>
+</tr>
+<tr>
+<td><strong>🔌 Hardware</strong></td>
+<td>EGSE interfaces<br>ATE systems<br>KTE systems</td>
+<td>Spacecraft test equipment integration</td>
+</tr>
+</tbody>
+</table>
 
 ---
 
@@ -72,27 +109,64 @@ Below is a simplified, sanitized architecture diagram representing the EGSE depl
                 +---------------------------+
 ```
 
+### **System Components**
+
+| Component | Platform | Function |
+|-----------|----------|----------|
+| 🛰️ **Spacecraft Test Interfaces** | Hardware | Physical connection to satellite systems |
+| 🔌 **EGSE** | Linux/Windows | Electrical ground support equipment |
+| 🤖 **ATE Systems** | Linux | Automated test execution |
+| 📚 **KTE Systems** | Windows | Knowledge-based test systems |
+| 📊 **Monitoring Layer** | Hybrid | Centralized logging and security |
+
 ---
 
 ## 🚀 Deployment Workflow
 
-1. Provision Linux and Windows hosts for EGSE components
-2. Configure network interfaces, VLANs, and routing
-3. Deploy EGSE, ATE, and KTE modules
-4. Apply secure access controls (SSH, MFA, RBAC)
-5. Validate hardware interfaces and test communication paths
-6. Enable logging, monitoring, and automated health checks
-7. Perform integration testing with spacecraft test systems
+| Step | Action | Tools Used |
+|------|--------|------------|
+| **1** | Provision Linux and Windows hosts for EGSE components | 🐚 Bash, 💠 PowerShell |
+| **2** | Configure network interfaces, VLANs, and routing | 🌐 Network tools |
+| **3** | Deploy EGSE, ATE, and KTE modules | 🐍 Python, 🐚 Shell scripts |
+| **4** | Apply secure access controls (SSH, MFA, RBAC) | 🔐 Security frameworks |
+| **5** | Validate hardware interfaces and test communication paths | 🔌 EGSE tooling |
+| **6** | Enable logging, monitoring, and automated health checks | 📊 Monitoring systems |
+| **7** | Perform integration testing with spacecraft test systems | 🧪 Test frameworks |
 
 ---
 
 ## ✅ Key Outcomes
 
-- Improved reliability of satellite test operations
-- Reduced deployment time through automation
-- Strengthened system security and access control
-- Enhanced collaboration between software, hardware, and test engineering teams
-- Supported mission-critical testing cycles with minimal downtime
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>⚡ Reliability</strong></td>
+<td>Improved reliability of satellite test operations</td>
+</tr>
+<tr>
+<td><strong>⏱️ Efficiency</strong></td>
+<td>Reduced deployment time through automation</td>
+</tr>
+<tr>
+<td><strong>🔒 Security</strong></td>
+<td>Strengthened system security and access control</td>
+</tr>
+<tr>
+<td><strong>🤝 Collaboration</strong></td>
+<td>Enhanced collaboration between software, hardware, and test engineering teams</td>
+</tr>
+<tr>
+<td><strong>🎯 Uptime</strong></td>
+<td>Supported mission-critical testing cycles with minimal downtime</td>
+</tr>
+</tbody>
+</table>
 
 ---
 
