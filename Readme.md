@@ -1,59 +1,34 @@
-# 🛰️ Project Kuiper EGSE Deployment
-
-Infrastructure deployment for Amazon’s $10M+ Project Kuiper satellite testing initiative.
-
----
+# 🛰️ Kuiper EGSE Deployment  
+Mission-Critical Satellite Test Infrastructure • EGSE / ATE / KTE • Secure Automation
 
 ## 📌 Overview
+This repository documents the engineering work behind deploying, maintaining, and supporting **Electrical Ground Support Equipment (EGSE)** systems used for satellite testing and validation.  
+The environment integrates **ATE**, **KTE**, **Linux/Windows hybrid systems**, and secure automation workflows to ensure reliable spacecraft testing operations.
 
-This project involved deploying 5 EGSE (Electrical Ground Support Equipment) satellite testing racks for Amazon’s Project Kuiper. As a Systems Engineer, I led the infrastructure setup, automation scripting, and vendor coordination to ensure 100% operational readiness and compliance with aerospace standards.
-
----
-
-## 🛠️ Key Contributions
-
-- Deployed 5 EGSE racks with full operational readiness  
-- Reduced engineer onboarding time by 40% through automation and documentation  
-- Delivered 98% SLA compliance, completing work 15% ahead of schedule  
-- Coordinated hardware vendor integration for mission-critical systems
+This work reflects hands-on engineering in a **mission-critical aerospace environment**, where reliability, precision, and security are non‑negotiable.
 
 ---
 
-## 🧰 Tech Stack
-
-- cloud-infrastructure
-- aws
-- egse
-- powershell
-- python
-- automation
-- satellite-systems
-- deployment
-- systems-engineering
-- project-kuiper
-- linux
-- vpn
-- dhcp
-- dns
-- tcp-ip
-- cisco 
+## 🎯 Responsibilities & Scope
+- Designed and deployed EGSE components across Linux and Windows systems  
+- Supported ATE/KTE test environments for spacecraft validation  
+- Automated deployment workflows to reduce manual configuration overhead  
+- Ensured system reliability for continuous satellite testing operations  
+- Collaborated with cross-functional aerospace engineering teams  
+- Maintained secure access, logging, and compliance-aligned configurations  
 
 ---
 
-## 📂 Repository Structure
+## 🛠️ Technologies & Tools
+- Linux (Ubuntu, RHEL)  
+- Windows Server  
+- Shell scripting  
+- PowerShell  
+- Python  
+- Networking (TCP/IP, VLANs, routing)  
+- Secure access tooling (SSH, MFA, RBAC)  
+- Logging & monitoring systems  
+- Hardware interfaces used in EGSE/ATE/KTE environments  
 
-- `scripts/`: Sample automation scripts for onboarding and rack initialization  
-- `docs/`: Architecture summaries and deployment visuals (omitted for confidentiality)  
-- `procedures/`: Deployment guides and SOPs  
-- `assets/`: Vendor integration notes and lessons learned
-
----
-## 🎯 Outcome
-
-Accelerated satellite testing readiness and improved engineering efficiency across Kuiper’s infrastructure.
-
----
-
-## 🔒 Confidentiality Notice
-
-Due to the sensitive nature of this project and contractual obligations, specific diagrams, scripts, and internal documentation cannot be publicly shared. This repository provides a high-level overview of the work delivered, technologies used, and outcomes achieved.
+## 🧩 Architecture Overview
+Below is a simplified, sanitized architecture diagram representing the EGSE deployment workflow:
