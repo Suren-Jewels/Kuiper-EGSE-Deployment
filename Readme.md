@@ -109,6 +109,32 @@ Below is a simplified, sanitized architecture diagram representing the EGSE depl
                 +---------------------------+
 ```
 
+---
+
+## 🧠 System Summary
+
+The Kuiper EGSE deployment system integrates Linux and Windows servers with ATE/KTE test environments to support mission‑critical satellite validation. Configuration servers and automation scripts provision EGSE racks, while secure access controls and monitoring ensure reliability, compliance, and repeatability across eight deployment phases. This architecture enables cross‑functional engineering teams to execute spacecraft testing with precision and minimal downtime.
+
+---
+
+## 🧩 Architecture Layers
+
+| Layer | Components | Purpose |
+|-------|------------|---------|
+| **Deployment** | Configuration Server, Deployment Scripts | Automate provisioning and baseline setup |
+| **EGSE Hardware** | EGSE Rack, Linux/Windows Test Nodes | Execute satellite test operations |
+| **Validation** | Readiness Checks, Phase 1–8 Pipeline, Reporting | Certify system readiness and log results |
+| **Monitoring** | Dashboard, Log Aggregation, Telemetry | Ensure system health and visibility |
+| **Interfaces** | ATE/KTE Teams, Deployment Engineering | Enable cross‑team collaboration and feedback |
+
+---
+
+## 🔗 Related Projects
+
+- [ServiceNow Capacity Optimization](https://github.com/Suren-Jewels/ServiceNow-Capacity-Optimization)  
+- [Federal Security Support](https://github.com/Suren-Jewels/Federal-Security-Support)  
+- [Scripts Toolkit](https://github.com/Suren-Jewels/Scripts-Toolkit)
+
 ### **System Components**
 
 | Component | Platform | Function |
