@@ -29,6 +29,26 @@ Windows-based systems supporting knowledge-driven test workflows, operator inter
 
 ---
 
+## 🔄 Architecture Flow (High-Level)
+📡 Amazon Kuiper — EGSE Deployment Architecture
+
+### Components
+• EGSE racks
+• Linux + Windows test nodes
+• Configuration server
+• Validation pipeline
+• Deployment orchestration scripts
+• Logging + monitoring stack
+
+### Flow
+1. Deployment scripts push baseline config → EGSE racks  
+2. Validation pipeline runs readiness checks  
+3. Test nodes register with orchestration layer  
+4. Logs + metrics feed into monitoring dashboard  
+5. Multi-phase deployment workflow repeats across 8 stages
+
+---
+
 ## 🧩 Architectural Intent
 
 The architecture is designed to ensure:
