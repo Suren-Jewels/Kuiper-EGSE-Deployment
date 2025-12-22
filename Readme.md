@@ -104,6 +104,48 @@ The Kuiper EGSE deployment system integrates Linux and Windows servers with ATE/
 
 ---
 
+## 🗂️ Repository Structure
+
+A high-level map of the Kuiper EGSE Deployment repository:
+```
+Kuiper-EGSE-Deployment/
+│
+├── docs/
+│   └── architecture_summary.md          # High-level architecture overview (sanitized)
+│
+├── procedures/
+│   └── EGSE_Deployment_Summary.md       # Deployment process for 5 EGSE racks
+│
+├── scripts/
+│   ├── onboarding_automation.ps1        # Engineer onboarding & access provisioning (sanitized)
+│   ├── rack_initialization.py           # Rack diagnostics & readiness checks (sanitized)
+│   └── Pipeline_Validation.py           # Multi-phase validation pipeline simulation
+│
+└── README.md                            # Main project documentation
+```
+
+### 📁 Directory Descriptions
+
+| Directory | Purpose |
+|-----------|---------|
+| `docs/` | Architecture documentation and technical overviews |
+| `procedures/` | Deployment runbooks and operational procedures |
+| `scripts/` | Automation tools for deployment, validation, and provisioning |
+
+### 📄 Key Files
+
+- **[`architecture_summary.md`](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/docs/architecture_summary.md)** - System design and component relationships
+- **[`EGSE_Deployment_Summary.md`](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/procedures/EGSE_Deployment_Summary.md)** - Step-by-step deployment procedures used across 8 phases
+- **[`onboarding_automation.ps1`](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/scripts/onboarding_automation.ps1)** - PowerShell automation for engineer access provisioning
+- **[`rack_initialization.py`](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/scripts/rack_initialization.py)** - Python diagnostics for EGSE rack readiness validation
+- **[`Pipeline_Validation.py`](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/scripts/Pipeline_Validation.py)** - Multi-phase validation pipeline for deployment verification
+
+---
+
+This structure keeps the project clean, organized, and easy to navigate for recruiters, engineers, and reviewers.
+
+---
+
 ## 🚀 Why This Work Matters
 
 EGSE systems are the backbone of spacecraft validation. Every satellite must pass through rigorous electrical, functional, and communication testing before it can be cleared for launch. Reliable EGSE deployments ensure that these tests run consistently across ATE/KTE environments, reducing mission risk and preventing costly delays. By standardizing deployments, securing access, and improving test reliability, this work directly contributes to spacecraft readiness and the overall success of mission-critical aerospace operations.
