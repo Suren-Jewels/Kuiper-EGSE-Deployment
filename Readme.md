@@ -26,47 +26,14 @@ This work reflects hands-on engineering in a **mission-critical aerospace enviro
 
 ### **Platform Stack**
 
-<table>
-<thead>
-<tr>
-<th>Category</th>
-<th>Technologies</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>🖥️ Operating Systems</strong></td>
-<td>Linux (Ubuntu, RHEL)<br>Windows Server</td>
-<td>Hybrid infrastructure supporting EGSE components</td>
-</tr>
-<tr>
-<td><strong>⚙️ Automation</strong></td>
-<td>Shell scripting<br>PowerShell<br>Python</td>
-<td>Deployment automation and configuration management</td>
-</tr>
-<tr>
-<td><strong>🌐 Networking</strong></td>
-<td>TCP/IP<br>VLANs<br>Routing</td>
-<td>Network infrastructure for test systems</td>
-</tr>
-<tr>
-<td><strong>🔐 Security</strong></td>
-<td>SSH<br>MFA<br>RBAC</td>
-<td>Secure access controls and authentication</td>
-</tr>
-<tr>
-<td><strong>📊 Monitoring</strong></td>
-<td>Logging systems<br>Monitoring tools</td>
-<td>System health and operational visibility</td>
-</tr>
-<tr>
-<td><strong>🔌 Hardware</strong></td>
-<td>EGSE interfaces<br>ATE systems<br>KTE systems</td>
-<td>Spacecraft test equipment integration</td>
-</tr>
-</tbody>
-</table>
+| Category | Technologies | Purpose |
+|---------|--------------|---------|
+| **🖥️ Operating Systems** | Linux (Ubuntu, RHEL), Windows Server | Hybrid infrastructure supporting EGSE components |
+| **⚙️ Automation** | Shell scripting, PowerShell, Python | Deployment automation and configuration management |
+| **🌐 Networking** | TCP/IP, VLANs, Routing | Network infrastructure for test systems |
+| **🔐 Security** | SSH, MFA, RBAC | Secure access controls and authentication |
+| **📊 Monitoring** | Logging systems, Monitoring tools | System health and operational visibility |
+| **🔌 Hardware** | EGSE interfaces, ATE systems, KTE systems | Spacecraft test equipment integration |
 
 ---
 
@@ -111,6 +78,7 @@ Below is a simplified, sanitized architecture diagram representing the EGSE depl
 
 ---
 
+---
 
 ### 📷 Visual Architecture Diagram (PNG)
 
@@ -136,52 +104,47 @@ The Kuiper EGSE deployment system integrates Linux and Windows servers with ATE/
 
 ---
 
+## 🚀 Why This Work Matters
+
+EGSE systems are the backbone of spacecraft validation. Every satellite must pass through rigorous electrical, functional, and communication testing before it can be cleared for launch. Reliable EGSE deployments ensure that these tests run consistently across ATE/KTE environments, reducing mission risk and preventing costly delays. By standardizing deployments, securing access, and improving test reliability, this work directly contributes to spacecraft readiness and the overall success of mission-critical aerospace operations.
+
+---
+
+## 🧩 Engineering Challenges Solved
+
+- Standardized EGSE deployments across mixed Linux/Windows environments  
+- Reduced configuration drift through automated provisioning workflows  
+- Improved test reliability across ATE/KTE systems used for spacecraft validation  
+- Ensured secure access in a high-sensitivity aerospace environment (SSH, MFA, RBAC)  
+- Enabled consistent multi-phase validation across repeated test cycles  
+- Improved cross-team collaboration between software, hardware, and test engineering groups  
+- Enhanced monitoring and logging to support rapid troubleshooting and uptime requirements  
+
+---
+
 ## 🚀 Deployment Workflow
 
 | Step | Action | Tools Used |
 |------|--------|------------|
-| **1** | Provision Linux and Windows hosts for EGSE components | 🐚 Bash, 💠 PowerShell |
-| **2** | Configure network interfaces, VLANs, and routing | 🌐 Network tools |
-| **3** | Deploy EGSE, ATE, and KTE modules | 🐍 Python, 🐚 Shell scripts |
-| **4** | Apply secure access controls (SSH, MFA, RBAC) | 🔐 Security frameworks |
-| **5** | Validate hardware interfaces and test communication paths | 🔌 EGSE tooling |
-| **6** | Enable logging, monitoring, and automated health checks | 📊 Monitoring systems |
-| **7** | Perform integration testing with spacecraft test systems | 🧪 Test frameworks |
+| **1** | Provision Linux and Windows hosts for EGSE components | Bash, PowerShell |
+| **2** | Configure network interfaces, VLANs, and routing | Network tools |
+| **3** | Deploy EGSE, ATE, and KTE modules | Python, Shell scripts |
+| **4** | Apply secure access controls (SSH, MFA, RBAC) | Security frameworks |
+| **5** | Validate hardware interfaces and test communication paths | EGSE tooling |
+| **6** | Enable logging, monitoring, and automated health checks | Monitoring systems |
+| **7** | Perform integration testing with spacecraft test systems | Test frameworks |
 
 ---
 
 ## ✅ Key Outcomes
 
-<table>
-<thead>
-<tr>
-<th>Area</th>
-<th>Impact</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>⚡ Reliability</strong></td>
-<td>Improved reliability of satellite test operations</td>
-</tr>
-<tr>
-<td><strong>⏱️ Efficiency</strong></td>
-<td>Reduced deployment time through automation</td>
-</tr>
-<tr>
-<td><strong>🔒 Security</strong></td>
-<td>Strengthened system security and access control</td>
-</tr>
-<tr>
-<td><strong>🤝 Collaboration</strong></td>
-<td>Enhanced collaboration between software, hardware, and test engineering teams</td>
-</tr>
-<tr>
-<td><strong>🎯 Uptime</strong></td>
-<td>Supported mission-critical testing cycles with minimal downtime</td>
-</tr>
-</tbody>
-</table>
+| Area | Impact |
+|------|--------|
+| **⚡ Reliability** | Improved reliability of satellite test operations |
+| **⏱️ Efficiency** | Reduced deployment time through automation |
+| **🔒 Security** | Strengthened system security and access control |
+| **🤝 Collaboration** | Enhanced collaboration between software, hardware, and test engineering teams |
+| **🎯 Uptime** | Supported mission-critical testing cycles with minimal downtime |
 
 ---
 
@@ -196,6 +159,6 @@ Only high-level engineering concepts and deployment patterns are described.
 ## 📫 Contact
 
 **Suren Jewels**  
-Senior Cloud Engineer | Infrastructure & Security Specialist  
+Senior Cloud Engineer • Infrastructure & Security Specialist  
 
 *For inquiries about this project or collaboration opportunities, please reach out via LinkedIn.*
