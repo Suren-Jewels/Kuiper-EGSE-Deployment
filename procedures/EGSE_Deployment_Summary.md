@@ -1,36 +1,55 @@
 # EGSE Deployment Summary
 
-This document outlines the high-level process used to deploy 5 EGSE satellite testing racks for Amazon’s Project Kuiper.
+This document provides a high-level overview of the process used to deploy five EGSE satellite testing racks for Amazon’s Project Kuiper. All details are fully sanitized and focus on engineering methodology rather than proprietary implementation.
+
+---
 
 ## 📦 Rack Preparation
 
-- Verified hardware compatibility and firmware versions
-- Coordinated with vendors for delivery and integration
-- Performed initial diagnostics and power-on tests
+- Verified hardware compatibility, firmware baselines, and vendor specifications  
+- Coordinated delivery, staging, and integration with external hardware partners  
+- Performed initial diagnostics, power-on checks, and environmental readiness tests  
+- Ensured all racks met physical, electrical, and safety requirements prior to installation  
+
+---
 
 ## 🔧 Infrastructure Setup
 
-- Provisioned and configured multi-platform test environments:
-  - Linux-based ATE (Automated Test Equipment) servers
-  - Linux-based EGSE (Electrical Ground Support Equipment) systems
-  - Windows-based KTE (Kuiper Test Environment) servers
-- Set up secure networking: DHCP, DNS, VPN, and TCP/IP routing
-  - Configured secure gateway routing between EGSE, ATE, and KTE environments
-  - Deployed Cisco-based gateway (ISR/ASR) for traffic control and firewall enforcement
-  - Enabled VPN access for remote diagnostics and vendor collaboration
-  - Integrated Cisco hardware and Ubuntu control systems
-  - Applied IL4/IL5 compliance controls and endpoint protection (CrowdStrike, BitLocker)
+### Multi‑Platform Test Environment Provisioning
+- Deployed and configured:
+  - **Linux-based ATE servers** (Automated Test Equipment)  
+  - **Linux-based EGSE systems** (Electrical Ground Support Equipment)  
+  - **Windows-based KTE servers** (Kuiper Test Environment)  
+
+### Secure Networking & Access Controls
+- Configured DHCP, DNS, static routing, and segmented VLANs  
+- Implemented secure gateway routing between EGSE, ATE, and KTE environments  
+- Deployed Cisco ISR/ASR gateway hardware for traffic control and firewall enforcement  
+- Enabled VPN access for remote diagnostics and vendor collaboration  
+- Integrated Cisco networking with Ubuntu-based control systems  
+- Applied IL4/IL5-aligned security controls, including:
+  - Endpoint protection (CrowdStrike)  
+  - Disk encryption (BitLocker)  
+  - MFA and RBAC enforcement  
+
+---
 
 ## ⚙️ Automation & Onboarding
 
-- Developed PowerShell scripts for engineer onboarding
-- Created Python scripts for rack health checks and diagnostics
-- Documented procedures in Confluence and Quip
+- Developed **PowerShell automation** for engineer onboarding and access provisioning  
+- Created **Python-based rack diagnostics scripts** for health checks and readiness validation  
+- Documented deployment procedures and operational workflows in Confluence and Quip  
+- Standardized onboarding steps to reduce manual configuration drift  
+
+---
 
 ## ✅ Validation & Handoff
 
-- Achieved 100% operational readiness across all racks
-- Delivered documentation and training to Kuiper engineering teams
-- Completed deployment 15% ahead of schedule
+- Achieved **100% operational readiness** across all five EGSE racks  
+- Completed full validation of hardware interfaces, network paths, and test communication flows  
+- Delivered training and documentation to Kuiper engineering and test teams  
+- Completed deployment **15% ahead of schedule**, enabling earlier test cycles  
 
-> _Note: Detailed procedures and diagrams are omitted due to confidentiality._
+---
+
+> _Note: All technical details, diagrams, and procedures are fully sanitized. No proprietary spacecraft data or internal operational logic is included._
