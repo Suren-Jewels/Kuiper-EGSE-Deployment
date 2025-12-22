@@ -142,10 +142,6 @@ Kuiper-EGSE-Deployment/
 
 ---
 
-This structure keeps the project clean, organized, and easy to navigate for recruiters, engineers, and reviewers.
-
----
-
 ## 🚀 Why This Work Matters
 
 EGSE systems are the backbone of spacecraft validation. Every satellite must pass through rigorous electrical, functional, and communication testing before it can be cleared for launch. Reliable EGSE deployments ensure that these tests run consistently across ATE/KTE environments, reducing mission risk and preventing costly delays. By standardizing deployments, securing access, and improving test reliability, this work directly contributes to spacecraft readiness and the overall success of mission-critical aerospace operations.
