@@ -11,6 +11,18 @@ This work reflects hands-on engineering in a **mission-critical aerospace enviro
 
 ---
 
+## 🧠 System Summary
+
+The Kuiper EGSE deployment system integrates Linux and Windows servers with ATE/KTE test environments to support mission‑critical satellite validation. Configuration servers and automation scripts provision EGSE racks, while secure access controls and monitoring ensure reliability, compliance, and repeatability across eight deployment phases. This architecture enables cross‑functional engineering teams to execute spacecraft testing with precision and minimal downtime.
+
+---
+
+## 🚀 Why This Work Matters
+
+EGSE systems are the backbone of spacecraft validation. Every satellite must pass through rigorous electrical, functional, and communication testing before it can be cleared for launch. Reliable EGSE deployments ensure that these tests run consistently across ATE/KTE environments, reducing mission risk and preventing costly delays. By standardizing deployments, securing access, and improving test reliability, this work directly contributes to spacecraft readiness and the overall success of mission-critical aerospace operations.
+
+---
+
 ## 🎯 Responsibilities & Scope
 
 - Designed and deployed EGSE components across Linux and Windows systems  
@@ -34,6 +46,21 @@ This work reflects hands-on engineering in a **mission-critical aerospace enviro
 | **🔐 Security** | SSH, MFA, RBAC | Secure access controls and authentication |
 | **📊 Monitoring** | Logging systems, Monitoring tools | System health and operational visibility |
 | **🔌 Hardware** | EGSE interfaces, ATE systems, KTE systems | Spacecraft test equipment integration |
+
+---
+
+## 📈 Infrastructure Deployment Workflow
+
+| Stage | Description |
+|-------|-------------|
+| 1. Environment Preparation | Validate cloud credentials, Terraform backend configuration, and workspace selection before deployment |
+| 2. Module Initialization | Initialize Terraform modules, providers, and shared components used across environments |
+| 3. Plan & Policy Validation | Run `terraform plan`, validate policies, and ensure Zero Trust and compliance rules are met |
+| 4. Infrastructure Provisioning | Apply Terraform changes to deploy compute, networking, IAM, and supporting services |
+| 5. Post‑Deployment Validation | Run automated validation scripts to confirm resource health, connectivity, and IAM correctness |
+| 6. CI/CD Integration | Trigger pipelines for linting, formatting, security scanning, and automated promotion to higher environments |
+| 7. Drift Detection | Compare deployed resources with Terraform state and reconcile differences across dev/stage/prod |
+| 8. Documentation & Handoff | Update architecture docs, module references, and operational runbooks for ongoing maintenance |
 
 ---
 
@@ -78,17 +105,10 @@ Below is a simplified, sanitized architecture diagram representing the EGSE depl
 
 ---
 
----
-
 ### 📷 Visual Architecture Diagram (PNG)
 
 ![EGSE Architecture](EGSE_Architecture.png)
 
----
-
-## 🧠 System Summary
-
-The Kuiper EGSE deployment system integrates Linux and Windows servers with ATE/KTE test environments to support mission‑critical satellite validation. Configuration servers and automation scripts provision EGSE racks, while secure access controls and monitoring ensure reliability, compliance, and repeatability across eight deployment phases. This architecture enables cross‑functional engineering teams to execute spacecraft testing with precision and minimal downtime.
 
 ---
 
@@ -101,6 +121,33 @@ The Kuiper EGSE deployment system integrates Linux and Windows servers with ATE/
 | **Validation** | Readiness Checks, Phase 1–8 Pipeline, Reporting | Certify system readiness and log results |
 | **Monitoring** | Dashboard, Log Aggregation, Telemetry | Ensure system health and visibility |
 | **Interfaces** | ATE/KTE Teams, Deployment Engineering | Enable cross‑team collaboration and feedback |
+
+---
+
+## 📊 Metrics Analyzed
+
+| Metric Category | Purpose | Examples |
+|-----------------|----------|----------|
+| 🏗️ Infrastructure Health | Validate stability and performance of provisioned resources | CPU/Memory usage, disk IOPS, network throughput |
+| 🔐 IAM & Access Metrics | Ensure least‑privilege and correct role assignments | Failed API calls, permission denials, role drift |
+| 🌐 Network Performance | Confirm connectivity and routing correctness | Latency, packet loss, subnet reachability |
+| 🔄 Pipeline Reliability | Measure CI/CD consistency and deployment success | Pipeline pass rate, linting errors, validation failures |
+| 📦 Environment Drift | Detect configuration mismatches across environments | Drift reports, module version differences |
+| ⚙️ Terraform Operations | Track IaC performance and correctness | Plan/apply duration, state lock frequency |
+
+---
+
+## 🔧 Common Troubleshooting Scenarios
+
+| Issue Type | Symptoms | Resolution |
+|------------|----------|------------|
+| 🗂️ Terraform State Issues | State lock errors, drift, failed plan/apply | Unlock or refresh state, validate backend, re‑run plan |
+| 🔐 IAM Access Failures | Permission denied, missing roles, failed API calls | Verify IAM roles, confirm bindings, re‑run access bootstrap |
+| 🌐 Network Connectivity Problems | Resources unreachable, routing failures, blocked traffic | Validate routing, security groups, firewall rules, re‑provision network modules |
+| 🏗️ Module Dependency Conflicts | Graph errors, circular dependencies, module ordering issues | Break modules apart, add `depends_on`, rebuild module graph |
+| 🔄 Pipeline & Automation Failures | CI/CD stops, linting errors, failed validation | Fix formatting, validate modules locally, re‑run pipeline |
+| 📦 Environment Drift | Inconsistent outputs across dev/stage/prod | Pin module versions, use env‑specific variable files, run drift detection |
+| 🔑 Secret Management Issues | Missing secrets, expired tokens, failed authentication | Rotate credentials, validate secret injection, re‑sync bootstrap |
 
 ---
 
@@ -139,12 +186,6 @@ Kuiper-EGSE-Deployment/
 - **[`onboarding_automation.ps1`](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/scripts/onboarding_automation.ps1)** - PowerShell automation for engineer access provisioning
 - **[`rack_initialization.py`](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/scripts/rack_initialization.py)** - Python diagnostics for EGSE rack readiness validation
 - **[`Pipeline_Validation.py`](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/scripts/Pipeline_Validation.py)** - Multi-phase validation pipeline for deployment verification
-
----
-
-## 🚀 Why This Work Matters
-
-EGSE systems are the backbone of spacecraft validation. Every satellite must pass through rigorous electrical, functional, and communication testing before it can be cleared for launch. Reliable EGSE deployments ensure that these tests run consistently across ATE/KTE environments, reducing mission risk and preventing costly delays. By standardizing deployments, securing access, and improving test reliability, this work directly contributes to spacecraft readiness and the overall success of mission-critical aerospace operations.
 
 ---
 
@@ -200,3 +241,14 @@ Only high-level engineering concepts and deployment patterns are described.
 Senior Cloud Engineer • Infrastructure & Security Specialist  
 
 *For inquiries about this project or collaboration opportunities, please reach out via LinkedIn.*
+
+---
+
+## 📄 License
+
+This repository contains fully sanitized, non‑sensitive infrastructure patterns and deployment examples.  
+All content is provided for educational and portfolio demonstration purposes only.
+
+No proprietary configurations, internal cloud architectures, or confidential operational details are included.
+
+You may reference or adapt the public patterns in this repository, but all real-world implementations must follow your organization’s security, compliance, and governance requirements.
