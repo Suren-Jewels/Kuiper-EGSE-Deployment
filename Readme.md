@@ -1,6 +1,8 @@
 # 🛰️ Kuiper EGSE Deployment  
 **Mission-Critical Satellite Test Infrastructure • EGSE / ATE / KTE • Secure Automation**
 
+***
+
 ## 📌 Overview
 
 This repository documents the engineering work behind deploying, maintaining, and supporting **Electrical Ground Support Equipment (EGSE)** systems used for satellite testing and validation.
@@ -9,6 +11,16 @@ The environment integrates **ATE**, **KTE**, **Linux/Windows hybrid systems**, a
 
 This work reflects hands-on engineering in a **mission-critical aerospace environment**, where reliability, precision, and security are non-negotiable.
 
+***
+
+## 🎯 Responsibilities & Scope
+
+- Designed and deployed EGSE components across Linux and Windows systems  
+- Supported ATE/KTE test environments for spacecraft validation  
+- Automated deployment workflows to reduce manual configuration overhead  
+- Ensured system reliability for continuous satellite testing operations  
+- Collaborated with cross-functional aerospace engineering teams  
+- Maintained secure access, logging, and compliance-aligned configurations  
 ────────────────────────────────────────
 
 ## 🧠 System Summary
@@ -32,17 +44,6 @@ EGSE systems are the backbone of spacecraft validation. Every satellite must pas
 - Enabled consistent multi-phase validation across repeated test cycles  
 - Improved cross-team collaboration between software, hardware, and test engineering groups  
 - Enhanced monitoring and logging to support rapid troubleshooting and uptime requirements  
-
----
-
-## 🎯 Responsibilities & Scope
-
-- Designed and deployed EGSE components across Linux and Windows systems  
-- Supported ATE/KTE test environments for spacecraft validation  
-- Automated deployment workflows to reduce manual configuration overhead  
-- Ensured system reliability for continuous satellite testing operations  
-- Collaborated with cross-functional aerospace engineering teams  
-- Maintained secure access, logging, and compliance-aligned configurations  
 
 ---
 
