@@ -76,6 +76,17 @@ EGSE systems are the backbone of spacecraft validation. Every satellite must pas
 
 ---
 
+## 🚀 Key Achievements
+
+| Metric | Achievement | Impact |
+|--------|-------------|--------|
+| ⚙️ Automation Reliability | Built fully automated provisioning and teardown workflows | Reduced manual effort and eliminated environment drift |
+| 📈 System Stability | Implemented health checks and self‑healing routines | Improved uptime and reduced operational incidents |
+| 🧪 Testing Coverage | Added automated validation for core services | Ensured consistent deployments across environments |
+| 🚀 Deployment Speed | Streamlined CI/CD pipelines | Accelerated delivery and reduced lead time |
+
+---
+
 ## 🧩 Architecture Overview
 
 Below is a simplified, sanitized architecture diagram representing the EGSE deployment workflow:
