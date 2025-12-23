@@ -1,7 +1,7 @@
 # 🛰️ Kuiper EGSE Deployment  
 **Mission-Critical Satellite Test Infrastructure • EGSE / ATE / KTE • Secure Automation**
 
-············
+··················
 
 ## 📌 Overview
 
@@ -11,7 +11,7 @@ The environment integrates **ATE**, **KTE**, **Linux/Windows hybrid systems**, a
 
 This work reflects hands-on engineering in a **mission-critical aerospace environment**, where reliability, precision, and security are non-negotiable.
 
-············
+··················
 
 ## 🎯 Responsibilities & Scope
 
