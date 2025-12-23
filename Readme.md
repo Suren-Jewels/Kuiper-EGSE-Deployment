@@ -23,6 +23,18 @@ EGSE systems are the backbone of spacecraft validation. Every satellite must pas
 
 ---
 
+## 🧩 Engineering Challenges Solved
+
+- Standardized EGSE deployments across mixed Linux/Windows environments  
+- Reduced configuration drift through automated provisioning workflows  
+- Improved test reliability across ATE/KTE systems used for spacecraft validation  
+- Ensured secure access in a high-sensitivity aerospace environment (SSH, MFA, RBAC)  
+- Enabled consistent multi-phase validation across repeated test cycles  
+- Improved cross-team collaboration between software, hardware, and test engineering groups  
+- Enhanced monitoring and logging to support rapid troubleshooting and uptime requirements  
+
+---
+
 ## 🎯 Responsibilities & Scope
 
 - Designed and deployed EGSE components across Linux and Windows systems  
@@ -137,6 +149,20 @@ Below is a simplified, sanitized architecture diagram representing the EGSE depl
 
 ---
 
+## 🔐 Authentication Workflow
+
+| Step | Action | Purpose |
+|------|--------|----------|
+| 1 | Authenticate to cloud providers using service principals or federated identities | Ensures secure, auditable access to infrastructure APIs |
+| 2 | Validate IAM roles and least‑privilege permissions before deployment | Prevents unauthorized Terraform operations |
+| 3 | Initialize Terraform backend with authenticated state access | Protects state integrity and prevents drift |
+| 4 | Run Terraform plan with authenticated provider sessions | Confirms resource changes against cloud APIs |
+| 5 | Apply infrastructure changes using short‑lived credentials | Reduces long‑term credential exposure |
+| 6 | Trigger CI/CD pipelines with scoped automation identities | Ensures pipelines operate under controlled permissions |
+| 7 | Log all authentication events for audit and compliance | Provides traceability across environments |
+
+---
+
 ## 🔧 Common Troubleshooting Scenarios
 
 | Issue Type | Symptoms | Resolution |
@@ -186,18 +212,6 @@ Kuiper-EGSE-Deployment/
 - **[`onboarding_automation.ps1`](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/scripts/onboarding_automation.ps1)** - PowerShell automation for engineer access provisioning
 - **[`rack_initialization.py`](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/scripts/rack_initialization.py)** - Python diagnostics for EGSE rack readiness validation
 - **[`Pipeline_Validation.py`](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/scripts/Pipeline_Validation.py)** - Multi-phase validation pipeline for deployment verification
-
----
-
-## 🧩 Engineering Challenges Solved
-
-- Standardized EGSE deployments across mixed Linux/Windows environments  
-- Reduced configuration drift through automated provisioning workflows  
-- Improved test reliability across ATE/KTE systems used for spacecraft validation  
-- Ensured secure access in a high-sensitivity aerospace environment (SSH, MFA, RBAC)  
-- Enabled consistent multi-phase validation across repeated test cycles  
-- Improved cross-team collaboration between software, hardware, and test engineering groups  
-- Enhanced monitoring and logging to support rapid troubleshooting and uptime requirements  
 
 ---
 
