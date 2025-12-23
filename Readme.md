@@ -9,7 +9,7 @@ The environment integrates **ATE**, **KTE**, **Linux/Windows hybrid systems**, a
 
 This work reflects hands-on engineering in a **mission-critical aerospace environment**, where reliability, precision, and security are non-negotiable.
 
----
+<div style="height: 2px; background: linear-gradient(90deg, #e3f2fd, #2196F3, #0D47A1, #2196F3, #e3f2fd); margin: 25px 0; border-radius: 1px;"></div>
 
 ## 🧠 System Summary
 
