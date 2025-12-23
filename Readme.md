@@ -86,7 +86,7 @@ Below is a simplified, sanitized architecture diagram representing the EGSE depl
 
 ![EGSE Architecture](EGSE_Architecture.png)
 
-•••••••••••••••
+
 
 ## 🧩 Architecture Layers
 
