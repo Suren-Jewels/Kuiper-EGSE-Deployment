@@ -1,7 +1,7 @@
 # 🛰️ Kuiper EGSE Deployment  
 **Mission-Critical Satellite Test Infrastructure • EGSE / ATE / KTE • Secure Automation**
 
-••••••
+······
 
 ## 📌 Overview
 
