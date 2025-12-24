@@ -8,8 +8,7 @@ This file provides a sanitized, high-level visual representation of the EGSE dep
 
 ## 📐 System Diagram
 
-![EGSE Architecture](EGSE_Architecture.png)
-
+![EGSE Architecture](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/EGSE_Architecture.png)
 ---
 
 ## 📝 Notes
