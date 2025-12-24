@@ -1,3 +1,18 @@
+## 📊 Metrics Analyzed
+
+| Metric Category | Purpose | Examples |
+|-----------------|----------|----------|
+| 🛰️ System Readiness | Validate rack health and operational readiness | Power‑on diagnostics, interface readiness, service availability |
+| 🌐 Network & Connectivity | Confirm segmented, secure communication across EGSE → ATE → KTE | VLAN reachability, gateway responsiveness, DNS/DHCP resolution, port checks |
+| 🔄 Validation Pipeline | Measure Phase 1–8 deployment and validation accuracy | Pass/fail counts, timing metrics, readiness results, logging outputs |
+| 🔐 Security & Access | Ensure IL4/IL5‑aligned access controls and endpoint security | MFA/RBAC enforcement, endpoint protection status, disk encryption |
+| 📈 Monitoring & Telemetry | Track system behavior and detect anomalies | Log aggregation completeness, error frequency, rack health indicators |
+| 🧪 Configuration Consistency | Detect mismatches across racks and test environments | Baseline drift, OS configuration differences, service version mismatches |
+
+> _All metrics are fully sanitized and generalized. No proprietary spacecraft data or internal operational details are included._
+
+---
+
 # 🚀 Deployment Overview
 
 This document provides a sanitized, high‑level overview of the operational steps used to deploy five EGSE racks for Amazon’s Project Kuiper. All content focuses on methodology and workflow, with no proprietary spacecraft logic included.
@@ -38,5 +53,17 @@ This document provides a sanitized, high‑level overview of the operational ste
 - Training and documentation handoff to engineering teams  
 
 ---
+
+## 🔐 Authentication Workflow
+
+| Step | Action | Purpose |
+|------|--------|----------|
+| 1 | Authenticate to Linux and Windows systems using MFA‑protected accounts | Ensures secure, identity‑verified access to EGSE/ATE/KTE environments |
+| 2 | Validate RBAC roles before performing deployment or diagnostic actions | Prevents unauthorized configuration changes across racks |
+| 3 | Establish secure VPN connection for remote engineering access | Protects traffic and enforces IL4/IL5‑aligned access controls |
+| 4 | Confirm endpoint protection and disk encryption status | Ensures devices meet security baselines before accessing systems |
+| 5 | Use privileged access only for time‑bound deployment tasks | Reduces exposure of administrative credentials |
+| 6 | Execute automation scripts under scoped, least‑privilege accounts | Ensures onboarding, initialization, and validation run securely |
+| 7 | Log authentication and access events for audit and compliance | Provides traceability across all rack interactions |
 
 > _All details are fully sanitized and generalized for public documentation._
