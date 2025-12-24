@@ -1,0 +1,44 @@
+{
+  "rack_id": "EGSE-RACK-01",
+  "environment": "sanitized",
+  "roles": {
+    "egse_system": "Linux",
+    "ate_server": "Linux",
+    "kte_host": "Windows"
+  },
+  "network": {
+    "vlan": {
+      "egse": 10,
+      "ate": 20,
+      "kte": 30
+    },
+    "subnets": {
+      "egse": "10.0.10.0/24",
+      "ate": "10.0.20.0/24",
+      "kte": "10.0.30.0/24"
+    },
+    "gateway": "10.0.0.1"
+  },
+  "security": {
+    "mfa_enabled": true,
+    "rbac_enforced": true,
+    "endpoint_protection": "CrowdStrike",
+    "disk_encryption": "BitLocker"
+  },
+  "services": {
+    "dhcp": true,
+    "dns": true,
+    "remote_access": "VPN",
+    "logging": "sanitized"
+  },
+  "validation_requirements": [
+    "Power-on diagnostics",
+    "Network path verification",
+    "Interface readiness checks",
+    "Service availability validation"
+  ],
+  "notes": [
+    "All values are placeholders.",
+    "No proprietary spacecraft or test logic included."
+  ]
+}
