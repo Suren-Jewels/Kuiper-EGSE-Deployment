@@ -1,0 +1,34 @@
+# network-baseline.yaml
+# -----------------------------------------
+# Sanitized baseline network configuration
+# used for EGSE, ATE, and KTE rack deployments.
+# No proprietary Kuiper data is included.
+
+vlans:
+  egse: 10
+  ate: 20
+  kte: 30
+
+subnets:
+  egse: "10.0.10.0/24"
+  ate: "10.0.20.0/24"
+  kte: "10.0.30.0/24"
+
+gateway:
+  address: "10.0.0.1"
+  model: "Cisco ISR/ASR (sanitized)"
+
+services:
+  dhcp: true
+  dns: true
+  routing: "static + segmented"
+
+security:
+  mfa: true
+  rbac: true
+  endpoint_protection: "CrowdStrike"
+  disk_encryption: "BitLocker"
+
+notes:
+  - "All values are placeholders."
+  - "No internal routing logic or proprietary details included."
