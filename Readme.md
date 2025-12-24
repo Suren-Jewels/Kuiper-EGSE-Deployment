@@ -168,14 +168,18 @@ All content in this repository is fully sanitized. No proprietary spacecraft dat
 
 ---
 
-## 👔 Professional Context
+## 👔 Professional Context  
 
 **Suren Jewels**  
-Cloud & Infrastructure Engineer • Security & Automation Specialist
+Cloud & Infrastructure Engineer • Security & Automation Specialist  
 
-This repository showcases sanitized engineering patterns and deployment practices used in high-sensitivity aerospace environments.
+This repository showcases sanitized engineering patterns and automation workflows used in enterprise ServiceNow environments.
 
-- **LinkedIn:** [linkedin.com/in/suren-jewels](https://www.linkedin.com/in/suren-jewels/)
+- **LinkedIn:** https://www.linkedin.com/in/suren-jewels/  
+- **GitHub:** https://github.com/Suren-Jewels  
+- **Email:** SurenJewelsPro@gmail.com
+
+---
 - **GitHub:** [github.com/Suren-Jewels](https://github.com/Suren-Jewels)
 
 ---
