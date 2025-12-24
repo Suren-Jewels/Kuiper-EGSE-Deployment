@@ -31,7 +31,7 @@ This work reflects hands-on engineering in a **mission-critical aerospace enviro
 | **📊 Monitoring** | Logging systems, Monitoring tools | System health and operational visibility |
 | **🔌 Hardware** | EGSE interfaces, ATE systems, KTE systems | Spacecraft test equipment integration |
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🧠 System Summary
 
@@ -41,7 +41,7 @@ The Kuiper EGSE deployment system integrates Linux and Windows servers with ATE/
 
 EGSE systems are the backbone of spacecraft validation. Every satellite must pass through rigorous electrical, functional, and communication testing before it can be cleared for launch. Reliable EGSE deployments ensure that these tests run consistently across ATE/KTE environments, reducing mission risk and preventing costly delays. By standardizing deployments, securing access, and improving test reliability, this work directly contributes to spacecraft readiness and the overall success of mission-critical aerospace operations.
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🧩 Architecture Overview
 
@@ -109,7 +109,7 @@ Below is a simplified, sanitized architecture diagram representing the EGSE depl
 | 📦 Environment Drift | Detect configuration mismatches across environments | Drift reports, module version differences |
 | ⚙️ Terraform Operations | Track IaC performance and correctness | Plan/apply duration, state lock frequency |
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🔐 Authentication Workflow
 
@@ -152,7 +152,7 @@ Below is a simplified, sanitized architecture diagram representing the EGSE depl
 | 📦 Environment Drift | Inconsistent outputs across dev/stage/prod | Pin module versions, use env‑specific variable files, run drift detection |
 | 🔑 Secret Management Issues | Missing secrets, expired tokens, failed authentication | Rotate credentials, validate secret injection, re‑sync bootstrap |
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🚀 Deployment Workflow
 
@@ -202,7 +202,7 @@ Below is a simplified, sanitized architecture diagram representing the EGSE depl
 - Improved cross-team collaboration between software, hardware, and test engineering groups  
 - Enhanced monitoring and logging to support rapid troubleshooting and uptime requirements  
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🗂️ Repository Structure
 
@@ -242,7 +242,7 @@ Kuiper-EGSE-Deployment/
 - **[`rack_initialization.py`](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/scripts/rack_initialization.py)** - Python diagnostics for EGSE rack readiness validation
 - **[`Pipeline_Validation.py`](https://github.com/Suren-Jewels/Kuiper-EGSE-Deployment/blob/main/scripts/Pipeline_Validation.py)** - Multi-phase validation pipeline for deployment verification
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
 
 ## 🔒 Confidentiality Notice
 
@@ -264,4 +264,4 @@ Senior Cloud Engineer • Infrastructure & Security Specialist
 
 *For inquiries about this project or collaboration opportunities, please reach out via LinkedIn.*
 
-────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────
