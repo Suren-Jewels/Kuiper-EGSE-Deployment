@@ -8,7 +8,7 @@ This file provides a sanitized, high-level visual representation of the EGSE dep
 
 ## 📐 System Diagram
 
-![EGSE Architecture Diagram](../assets/egse-architecture.png)
+![EGSE Architecture](EGSE_Architecture.png)
 
 ---
 
