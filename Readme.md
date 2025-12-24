@@ -156,6 +156,7 @@ Below is a simplified, sanitized architecture diagram representing the EGSE depl
 
 ## 🚀 Deployment Workflow
 
+**Pipeline:** *[CI] → [CD] → [Prod]*
 | Step | Action | Tools Used |
 |------|--------|------------|
 | **1** | Provision Linux and Windows hosts for EGSE components | Bash, PowerShell |
