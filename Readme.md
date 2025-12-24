@@ -73,26 +73,31 @@ A high-level map of the Kuiper EGSE Deployment repository:
 Kuiper-EGSE-Deployment/
 │
 ├── architecture/
-│   ├── architecture-summary.md        # High-level architecture overview (sanitized)
-│   ├── architecture-layers.md         # Layered breakdown of EGSE/ATE/KTE systems
-│   └── architecture-diagram.md        # ASCII + PNG architecture diagrams
+│   ├── architecture-summary.md      # High-level architecture overview (sanitized)
+│   ├── architecture-layers.md       # Layered breakdown of EGSE/ATE/KTE systems
+│   └── architecture-diagram.md      # ASCII + PNG architecture diagrams
 │
 ├── docs/
-│   ├── deployment-overview.md         # Deployment phases, metrics, workflows, authentication
-│   └── troubleshooting-guide.md       # Common issues, symptoms, and resolutions
+│   ├── deployment-overview.md       # Deployment phases, metrics, workflows, authentication
+│   ├── troubleshooting-guide.md     # Common issues, symptoms, and resolutions
+│   ├── runbook.md                   # Standard operating procedures for pipeline execution
+│   └── data-dictionary.md           # Definitions for raw, normalized, and processed data fields
 │
 ├── scripts/
-│   ├── onboarding-automation.ps1      # Engineer onboarding & access provisioning
-│   ├── rack-initialization.py         # Rack diagnostics & baseline configuration
-│   ├── pipeline-validation.py         # Multi-phase validation pipeline
-│   └── network-verification.py        # Network reachability & segmentation checks
+│   ├── onboarding-automation.ps1    # Engineer onboarding & access provisioning
+│   ├── rack-initialization.py       # Rack diagnostics & baseline configuration
+│   ├── pipeline-validation.py       # Multi-phase validation pipeline
+│   └── network-verification.py      # Network reachability & segmentation checks
 │
 ├── config/
-│   ├── network-baseline.yaml          # Standardized network configuration baseline
-│   └── rack-profile.json              # Rack-specific configuration profile
+│   ├── network-baseline.yaml        # Standardized network configuration baseline
+│   └── rack-profile.json            # Rack-specific configuration profile
 │
-└── README.md                           # Main project documentation
+└── README.md                        # Main project documentation
 ```
+
+---
+
 
 ### ▣ Key Files
 
@@ -100,6 +105,12 @@ Kuiper-EGSE-Deployment/
 - [architecture-summary.md](architecture/architecture-summary.md) — High-level overview of EGSE/ATE/KTE architecture
 - [architecture-layers.md](architecture/architecture-layers.md) — Layered breakdown of system components
 - [architecture-diagram.md](architecture/architecture-diagram.md) — ASCII and PNG architecture diagrams
+
+**📘 Documentation:**
+- [deployment-overview.md](docs/deployment-overview.md) — Deployment phases, metrics, workflows, authentication
+- [troubleshooting-guide.md](docs/troubleshooting-guide.md) — Common issues, symptoms, and resolutions
+- [runbook.md](docs/runbook.md) — Standard operating procedures for pipeline execution and validation
+- [data-dictionary.md](docs/data-dictionary.md) — Definitions for raw, normalized, and processed data fields
 
 **<> Scripts:**
 - [onboarding-automation.ps1](scripts/onboarding-automation.ps1) — Engineer onboarding & access provisioning
