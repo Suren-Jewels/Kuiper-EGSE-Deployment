@@ -54,6 +54,21 @@ This document provides a sanitized, high‑level overview of the operational ste
 
 ---
 
+## 📈 Infrastructure Deployment Workflow
+
+| Stage | Description |
+|-------|-------------|
+| **1. Environment Preparation** | Validate rack hardware, power, environmental readiness, and baseline OS images before deployment |
+| **2. Rack Initialization** | Run initialization scripts to configure interfaces, apply OS baselines, and prepare EGSE/ATE/KTE nodes |
+| **3. Network Configuration** | Apply VLAN assignments, routing rules, DNS/DHCP settings, and verify gateway connectivity |
+| **4. Access & Security Setup** | Enforce MFA/RBAC, configure endpoint protection, validate disk encryption, and establish secure VPN access |
+| **5. Validation Pipeline Execution** | Run Phase 1–8 readiness checks using automated Python diagnostics and reporting tools |
+| **6. Service & Integration Testing** | Confirm communication paths across EGSE → ATE → KTE, validate service availability, and test orchestration flows |
+| **7. Monitoring & Logging Enablement** | Configure log aggregation, telemetry feeds, and health monitoring dashboards |
+| **8. Documentation & Handoff** | Update architecture docs, rack profiles, troubleshooting guides, and provide handoff to engineering teams |
+
+---
+
 ## 🔐 Authentication Workflow
 
 | Step | Action | Purpose |
