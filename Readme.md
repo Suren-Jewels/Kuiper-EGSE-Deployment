@@ -14,9 +14,10 @@ This work reflects hands-on engineering in a **high-sensitivity aerospace enviro
 
 ## ⚡ Quick Start
 
-- Explore **architecture/** for system diagrams and layered breakdowns  
-- See **docs/** for deployment workflows and troubleshooting  
-- Review **scripts/** for automation used in rack initialization and validation
+- Explore [`architecture/`](architecture/) for system diagrams and layered breakdowns  
+- See [`docs/`](docs/) for deployment workflows and troubleshooting  
+- Review [`scripts/`](scripts/) for automation used in rack initialization and validation  
+- Check [`config/`](config/) for posture baselines, identity routing, and access policy definitions
 
 ---
 
